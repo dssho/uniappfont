@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/member/member",
+    "pages/news/news",
+    "pages/goods/goods",
+    "pages/contact/contact",
+    "pages/pics/pics",
+    "pages/videos/videos",
+    "pages/news-detail/news-detail",
+    "pages/goods-detail/goods-detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni_shop",
+    "navigationBarBackgroundColor": "#b50e03",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#b50e03",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/code/shouye.png",
+        "selectedIconPath": "static/code/shouye_1.png"
+      },
+      {
+        "text": "资讯",
+        "pagePath": "pages/news/news",
+        "iconPath": "static/code/zixun.png",
+        "selectedIconPath": "static/code/zixun_1.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/code/gouwuche.png",
+        "selectedIconPath": "static/code/gouwuche_1.png"
+      },
+      {
+        "text": "会员",
+        "pagePath": "pages/member/member",
+        "iconPath": "static/code/wode.png",
+        "selectedIconPath": "static/code/wode_1.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

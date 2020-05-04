@@ -1,0 +1,1 @@
+<view class="content"><image class="img" src="http://www.itcast.cn/2018czydz/images/gywmban.jpg"></image><view class="info"><view data-event-opts="{{[['tap',[['phone',['$event']]]]]}}" bindtap="__e">联系电话：99999 （点击拨打）</view><view>地址：山西省吕梁市离石区吕梁学院</view></view><map class="map" longitude="{{longitude}}" scale="{{scale}}" latitude="{{latitude}}" markers="{{markers}}"></map></view>
